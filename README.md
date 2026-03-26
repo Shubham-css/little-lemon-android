@@ -1,18 +1,115 @@
-# Little Lemon Food Ordering App
-This is the final project for ANDROID App Capstone, part of the Meta ANDROID Developer Professional Certificate program. It allows users to browse Little Lemon restaurant's menu and place orders.
+# 🍋 Little Lemon Food Ordering App
 
-## Preview
+A modern Android application for **Little Lemon Restaurant**, developed as the final project for the **Meta Android Developer Professional Certificate**.
+The app allows users to browse the restaurant menu, view details, and manage profile information with persistent storage.
+
+---
+
+## 🚀 Features
+
+* 📱 Onboarding screen for user details
+* 🍽️ Browse restaurant menu items
+* 🔍 Filter and explore food categories
+* 👤 Profile screen with saved user data
+* 🧭 Stack navigation with back support
+* 💾 Persistent local storage
+* ⚡ Smooth and responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+* **Language:** Kotlin
+* **UI:** Jetpack Compose
+* **Architecture:** MVVM
+* **Database:** Room / Local persistence
+* **Navigation:** Jetpack Navigation
+* **IDE:** Android Studio
+
+---
+
+## 🎬 App Preview
+
 ![Demonstration](https://user-images.githubusercontent.com/93353925/227747468-3e923704-873f-4a06-8bbb-8fad77580034.gif)
-## Features
-- Onboarding screen: prompts users to enter their personal details.
-- Stack navigation: allows users to access the previous screen using the Back button.
-- Home screen: features a header, hero section, menu breakdown section, and food menu list section.
-- Profile screen: displays the user's personal details.
-- Ability to save changes in the Profile screen that are retained when the app is restarted.
-## Wireframe
-The design of the Home screen is based on the following wireframe:
+
+---
+
+## 🧩 Screens
+
+* Onboarding Screen
+* Home Screen (Header, Hero section, Menu categories, Food list)
+* Profile Screen
+* Navigation between screens
+
+---
+
+## 🧪 Wireframe
+
+The Home screen design is based on the following wireframe:
 
 <img width="500" alt="Wireframe" src="https://user-images.githubusercontent.com/93353925/227747759-133a6613-06cb-4797-95f1-37a668c8be67.png">
 
-## Getting Started
-To run the app, you'll need to have Android studio installed. Clone the repository and open the project in Android Studio. Then, build and run the app on a simulator or device.
+---
+
+## 📂 Project Structure
+
+```
+.
+├── app/
+│   ├── data/
+│   ├── ui/
+│   ├── navigation/
+│   └── viewmodel/
+├── gradle/
+├── build.gradle
+└── settings.gradle
+```
+
+---
+
+## ▶️ Getting Started
+
+### 1. Clone the repository
+
+```
+git clone https://github.com/Shubham-css/little-lemon-android.git
+```
+
+### 2. Open in Android Studio
+
+* Launch Android Studio
+* Click **Open Project**
+* Select the cloned folder
+
+### 3. Run the app
+
+* Choose emulator/device
+* Click **Run ▶️**
+
+---
+
+## 🧠 Key Highlights
+
+* Implemented MVVM architecture
+* Built UI using Jetpack Compose
+* Persistent user profile storage
+* Clean navigation between screens
+* Scalable Android project structure
+
+---
+
+## 🔗 Repository Link
+
+https://github.com/Shubham-css/little-lemon-android
+
+---
+
+## 👨‍💻 Author
+
+**Shubham**
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
