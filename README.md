@@ -106,7 +106,7 @@ https://github.com/Shubham-css/little-lemon-android
 
 ## 👨‍💻 Author
 
-**Shubham**
+**Shubham Fulwnai**
 
 ---
 
